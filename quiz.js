@@ -205,6 +205,7 @@ let index = 0
 
 function afficherQuestion(){
     questionBox.textContent = questions[index].question;
+    questionBox.classList.remove("active")
 }
 
 let questionBox = document.getElementById("question");
@@ -225,6 +226,7 @@ next.addEventListener("click", function(){
 
 questionBox.addEventListener("click", function(){
     questionBox.textContent = questions[index].reponse
+    questionBox.classList.add("active")
     
 })
 
