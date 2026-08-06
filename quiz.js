@@ -210,7 +210,10 @@ questionBox.textContent = questions[index].question;
 let next = document.getElementById("next");
 
 next.addEventListener("click", function(){
-
+    
+    if (index >= questions.length - 1) {
+        return;
+    }
     index++;
 
     questionBox.textContent = questions[index].question;
@@ -225,6 +228,10 @@ questionBox.addEventListener("click", function(){
 let before = document.getElementById("before")
 
 before.addEventListener("click", function(){
+    if (index <= 0){
+        return;
+    }
     index--
     questionBox.textContent = questions[index].question;
+    
 })
