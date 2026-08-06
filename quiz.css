@@ -5,6 +5,8 @@
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
+    background-color: white;
+    text-align: center;
 }
 
 .active {
@@ -17,4 +19,8 @@
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
+}
+
+body {
+    background-color: rgb(181, 219, 188);
 }

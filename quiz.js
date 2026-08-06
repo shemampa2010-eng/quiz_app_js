@@ -203,9 +203,12 @@ let questions = [
 
 let index = 0
 
+let num = document.getElementById("num")
+
 function afficherQuestion(){
     questionBox.textContent = questions[index].question;
     questionBox.classList.remove("active")
+    num.textContent = "Question " + (index + 1) + "/" + questions.length;
 }
 
 let questionBox = document.getElementById("question");
