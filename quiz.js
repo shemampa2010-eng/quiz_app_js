@@ -203,6 +203,10 @@ let questions = [
 
 let index = 0
 
+function afficherQuestion(){
+    questionBox.textContent = questions[index].question;
+}
+
 let questionBox = document.getElementById("question");
 
 questionBox.textContent = questions[index].question;
@@ -210,14 +214,13 @@ questionBox.textContent = questions[index].question;
 let next = document.getElementById("next");
 
 next.addEventListener("click", function(){
-    
+
     if (index >= questions.length - 1) {
         return;
     }
     index++;
 
-    questionBox.textContent = questions[index].question;
-
+    afficherQuestion();
 });
 
 questionBox.addEventListener("click", function(){
@@ -232,6 +235,5 @@ before.addEventListener("click", function(){
         return;
     }
     index--
-    questionBox.textContent = questions[index].question;
-    
+    afficherQuestion();    
 })
