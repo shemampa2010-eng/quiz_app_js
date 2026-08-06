@@ -6,3 +6,8 @@
     text-align: center;
     cursor: pointer;
 }
+
+.active {
+    background-color: green;
+    color: white;
+}
