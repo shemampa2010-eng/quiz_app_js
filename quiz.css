@@ -10,8 +10,8 @@
 }
 
 .active {
-    background-color: green;
-    color: white;
+    background-color: azure;
+    color: green;
 }
 
 #next , #before {
