@@ -217,6 +217,9 @@ questionBox.textContent = questions[index].question;
 
 let next = document.getElementById("next");
 
+let input = document.getElementById("reponse");
+let verifier = document.getElementById("verifier");
+
 next.addEventListener("click", function(){
 
     if (index >= questions.length - 1) {
@@ -242,3 +245,21 @@ before.addEventListener("click", function(){
     index--
     afficherQuestion();    
 })
+
+verifier.addEventListener("click", function () {
+
+    if (input.value === questions[index].reponse) {
+
+        questionBox.classList.add("active");
+        questionBox.textContent = "Bonne réponse !";
+
+    } else {
+
+        questionBox.style.backgroundColor = "red";
+        questionBox.textContent = "Mauvaise réponse !";
+
+    }
+
+    input.value = ""
+});
+
