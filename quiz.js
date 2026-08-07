@@ -228,6 +228,7 @@ next.addEventListener("click", function(){
     index++;
 
     afficherQuestion();
+    questionBox.style.backgroundColor = "white";
 });
 
 questionBox.addEventListener("click", function(){
@@ -248,6 +249,7 @@ before.addEventListener("click", function(){
 
 verifier.addEventListener("click", function () {
 
+    
     if (input.value === questions[index].reponse) {
 
         questionBox.classList.add("active");
@@ -261,5 +263,6 @@ verifier.addEventListener("click", function () {
     }
 
     input.value = ""
+    input.focus();
 });
 
