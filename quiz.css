@@ -1,14 +1,20 @@
-#question{
+#question {
     width: 400px;
+    height: 80px;
+
     padding: 20px;
+
     border: 2px solid black;
     border-radius: 10px;
-    text-align: center;
-    cursor: pointer;
-    background-color: white;
-    text-align: center;
-}
 
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px auto;
+}
 .active {
     background-color: azure;
     color: green;
@@ -23,4 +29,16 @@
 
 body {
     background-color: rgb(181, 219, 188);
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
+.voirRep {
+    display: none;
 }

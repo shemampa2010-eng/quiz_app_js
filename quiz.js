@@ -219,6 +219,7 @@ let next = document.getElementById("next");
 
 let input = document.getElementById("reponse");
 let verifier = document.getElementById("verifier");
+let voirRep = document.getElementById("voirRep")
 
 next.addEventListener("click", function(){
 
@@ -259,7 +260,7 @@ verifier.addEventListener("click", function () {
 
         questionBox.style.backgroundColor = "red";
         questionBox.textContent = "Mauvaise réponse !";
-
+        voirRep.classList.remove("voirRep")
     }
 
     input.value = ""
