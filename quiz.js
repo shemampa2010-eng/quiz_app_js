@@ -1,207 +1,210 @@
 let questions = [
     {
-        question: "Quelle est la capitale du Rwanda ?",
-        reponse: "Kigali"
+        question: "Quel est le plus grand pays du monde par superficie ?",
+        reponse: "Russie"
     },
     {
-        question: "Combien y a-t-il de continents sur Terre ?",
-        reponse: "7 continents"
+        question: "Combien de temps met la Terre à faire le tour du Soleil ?",
+        reponse: "1 an"
     },
     {
-        question: "Quel langage de programmation apprends-tu actuellement ?",
-        reponse: "JavaScript"
+        question: "Qui a écrit 'Roméo et Juliette' ?",
+        reponse: "Shakespeare"
     },
     {
-        question: "Quelle planète est surnommée la planète rouge ?",
-        reponse: "Mars"
+        question: "Quel est le sport national du Rwanda le plus populaire ?",
+        reponse: "Football"
     },
     {
-        question: "Qui a écrit Les Misérables ?",
+        question: "Combien de temps dure un match de football (temps réglementaire) ?",
+        reponse: "90 minutes"
+    },
+    {
+        question: "Quel est le plus grand pays d'Afrique par superficie ?",
+        reponse: "Algerie"
+    },
+    {
+        question: "Quel est l'organe qui permet de respirer ?",
+        reponse: "Poumons"
+    },
+    {
+        question: "Quelle entreprise a créé l'iPhone ?",
+        reponse: "Apple"
+    },
+    {
+        question: "Quel est le métal le plus utilisé au monde ?",
+        reponse: "Fer"
+    },
+    {
+        question: "Qui a découvert la pénicilline ?",
+        reponse: "Fleming"
+    },
+    {
+        question: "Quel pays a la plus grande population du monde ?",
+        reponse: "Inde"
+    },
+    {
+        question: "Combien de temps met la lumière du Soleil à atteindre la Terre ?",
+        reponse: "8 minutes"
+    },
+    {
+        question: "Quel est le nom du plus grand lac d'Afrique ?",
+        reponse: "Lac Victoria"
+    },
+    {
+        question: "Combien de temps dure une révolution de la Lune autour de la Terre ?",
+        reponse: "1 mois"
+    },
+    {
+        question: "Quel est l'instrument utilisé pour mesurer la température ?",
+        reponse: "Thermometre"
+    },
+    {
+        question: "Quel est le nom de la voie lactée en anglais ?",
+        reponse: "Milky Way"
+    },
+    {
+        question: "Quel pays a inventé le papier ?",
+        reponse: "Chine"
+    },
+    {
+        question: "Quel est le plus grand pays d'Amérique du Sud ?",
+        reponse: "Bresil"
+    },
+    {
+        question: "Combien de dents a un adulte en moyenne ?",
+        reponse: "32"
+    },
+    {
+        question: "Quelle est la capitale de l'Égypte ?",
+        reponse: "Le Caire"
+    },
+    {
+        question: "Quel est le principal gaz que respirent les humains ?",
+        reponse: "Oxygene"
+    },
+    {
+        question: "Qui a fondé Microsoft ?",
+        reponse: "Bill Gates"
+    },
+    {
+        question: "Quel est le plus long os du corps humain ?",
+        reponse: "Femur"
+    },
+    {
+        question: "Combien de temps faut-il pour qu'un cœur humain batte en moyenne 1 fois ?",
+        reponse: "1 seconde"
+    },
+    {
+        question: "Quelle est la monnaie utilisée au Japon ?",
+        reponse: "Yen"
+    },
+    {
+        question: "Quel est le plus grand empire de l'histoire par superficie ?",
+        reponse: "Empire britannique"
+    },
+    {
+        question: "Combien de temps dure un jour sur Mars environ ?",
+        reponse: "24 heures"
+    },
+    {
+        question: "Quel est le fruit le plus cultivé au monde ?",
+        reponse: "Tomate"
+    },
+    {
+        question: "Qui a peint la chapelle Sixtine ?",
+        reponse: "Michel-Ange"
+    },
+    {
+        question: "Quelle est la capitale du Canada ?",
+        reponse: "Ottawa"
+    },
+    {
+        question: "Quel gaz les plantes absorbent-elles pour la photosynthèse ?",
+        reponse: "CO2"
+    },
+    {
+        question: "Quel réseau social a été créé par Mark Zuckerberg ?",
+        reponse: "Facebook"
+    },
+    {
+        question: "Quel est l'animal terrestre le plus lent ?",
+        reponse: "Escargot"
+    },
+    {
+        question: "Combien de temps dure une grossesse humaine environ ?",
+        reponse: "9 mois"
+    },
+    {
+        question: "Quelle est la capitale de la Corée du Sud ?",
+        reponse: "Seoul"
+    },
+    {
+        question: "Quel est l'élément chimique le plus léger ?",
+        reponse: "Hydrogene"
+    },
+    {
+        question: "Qui a écrit 'Les Misérables' ?",
         reponse: "Victor Hugo"
     },
     {
-        question: "Combien font 9 × 8 ?",
-        reponse: "72"
+        question: "Quel est le plus grand stade de football au monde ?",
+        reponse: "Rungrado"
     },
     {
-        question: "Quel est le plus grand océan du monde ?",
-        reponse: "Océan Pacifique"
+        question: "Combien de temps met le son à parcourir 1 km environ ?",
+        reponse: "3 secondes"
     },
     {
-        question: "Quelle est la formule chimique de l'eau ?",
-        reponse: "H₂O"
+        question: "Quel pays organise la Coupe du monde 2026 ?",
+        reponse: "Etats-Unis"
     },
     {
-        question: "Dans quel pays se trouve la tour Eiffel ?",
-        reponse: "France"
+        question: "Quel est l'oiseau qui ne peut pas voler mais court très vite ?",
+        reponse: "Autruche"
     },
     {
-        question: "Qui a développé la théorie de la relativité ?",
-        reponse: "Albert Einstein"
-    },
-    {
-        question: "Quel animal est appelé le roi de la jungle ?",
-        reponse: "Le lion"
-    },
-    {
-        question: "Combien de côtés possède un hexagone ?",
-        reponse: "6"
-    },
-    {
-        question: "Quel est le plus grand mammifère du monde ?",
-        reponse: "La baleine bleue"
-    },
-    {
-        question: "Quel est le système d'exploitation de Microsoft ?",
-        reponse: "Windows"
-    },
-    {
-        question: "Quelle est la plus grande planète du système solaire ?",
-        reponse: "Jupiter"
-    },
-    {
-        question: "Qui a peint la Joconde ?",
-        reponse: "Léonard de Vinci"
-    },
-    {
-        question: "Combien font 15 + 27 ?",
-        reponse: "42"
-    },
-    {
-        question: "Quelle est la capitale du Japon ?",
-        reponse: "Tokyo"
-    },
-    {
-        question: "Quel organe permet de respirer ?",
-        reponse: "Les poumons"
-    },
-    {
-        question: "Quel est le plus grand continent ?",
-        reponse: "L'Asie"
-    },
-    {
-        question: "Combien de joueurs composent une équipe de football sur le terrain ?",
-        reponse: "11 joueurs"
-    },
-    {
-        question: "Quel pays a inventé la pizza moderne ?",
-        reponse: "L'Italie"
-    },
-    {
-        question: "Quelle est la vitesse de la lumière environ ?",
-        reponse: "300 000 km/s"
-    },
-    {
-        question: "Quel est le langage utilisé pour structurer une page web ?",
-        reponse: "HTML"
-    },
-    {
-        question: "Quel langage sert principalement à styliser une page web ?",
-        reponse: "CSS"
-    },
-    {
-        question: "Qui est l'auteur de Harry Potter ?",
-        reponse: "J.K. Rowling"
+        question: "Quel est le nom du fondateur d'Amazon ?",
+        reponse: "Jeff Bezos"
     },
     {
         question: "Quelle est la capitale de l'Espagne ?",
         reponse: "Madrid"
     },
     {
-        question: "Combien de minutes y a-t-il dans une heure ?",
-        reponse: "60 minutes"
+        question: "Combien de continents sont traversés par l'équateur ?",
+        reponse: "3"
     },
     {
-        question: "Quel est le symbole chimique de l'or ?",
-        reponse: "Au"
+        question: "Quel est le plus vieux sport olympique ?",
+        reponse: "Athletisme"
     },
     {
-        question: "Quel est le plus haut sommet du monde ?",
-        reponse: "L'Everest"
+        question: "Quel est le nom scientifique de l'étoile la plus proche de la Terre ?",
+        reponse: "Soleil"
     },
     {
-        question: "Quel pays est surnommé le pays du Soleil-Levant ?",
-        reponse: "Le Japon"
+        question: "Quelle est la capitale de la Chine ?",
+        reponse: "Pekin"
     },
     {
-        question: "Quel est le plus grand désert du monde ?",
-        reponse: "L'Antarctique (désert froid)"
+        question: "Quel est le plus grand mammifère marin ?",
+        reponse: "Baleine bleue"
     },
     {
-        question: "Combien de dents possède généralement un adulte ?",
-        reponse: "32 dents"
+        question: "Combien de temps faut-il à un avion pour traverser l'Atlantique environ ?",
+        reponse: "7 heures"
     },
     {
-        question: "Quelle est la capitale de la France ?",
-        reponse: "Paris"
-    },
-    {
-        question: "Quel animal pond des œufs et produit du lait ?",
-        reponse: "L'ornithorynque"
-    },
-    {
-        question: "Quel est le nom du premier homme sur la Lune ?",
-        reponse: "Neil Armstrong"
-    },
-    {
-        question: "Quel est le plus grand pays du monde en superficie ?",
-        reponse: "La Russie"
-    },
-    {
-        question: "Quel est le nombre de jours dans une année normale ?",
-        reponse: "365 jours"
-    },
-    {
-        question: "Quel est le contraire de 'rapide' ?",
-        reponse: "Lent"
-    },
-    {
-        question: "Quel est le rôle principal du CPU dans un ordinateur ?",
-        reponse: "Exécuter les instructions"
-    },
-    {
-        question: "Que signifie HTML ?",
-        reponse: "HyperText Markup Language"
-    },
-    {
-        question: "Que signifie CSS ?",
-        reponse: "Cascading Style Sheets"
-    },
-    {
-        question: "Quel est le plus grand réseau informatique mondial ?",
-        reponse: "Internet"
-    },
-    {
-        question: "Quel sport utilise un ballon orange ?",
-        reponse: "Basketball"
-    },
-    {
-        question: "Combien de joueurs y a-t-il dans une équipe de basketball sur le terrain ?",
-        reponse: "5 joueurs"
-    },
-    {
-        question: "Quel est le pays d'origine du judo ?",
-        reponse: "Le Japon"
-    },
-    {
-        question: "Quel est le nom du héros principal de One Piece ?",
-        reponse: "Monkey D. Luffy"
-    },
-    {
-        question: "Combien de lettres possède l'alphabet français ?",
-        reponse: "26 lettres"
-    },
-    {
-        question: "Quel est le métal utilisé principalement dans les câbles électriques ?",
-        reponse: "Le cuivre"
-    },
-    {
-        question: "Quelle est la capitale de l'Italie ?",
-        reponse: "Rome"
+        question: "Quel pays a offert la Statue de la Liberté aux États-Unis ?",
+        reponse: "France"
     }
-];
+]
 
 let index = 0;
+
+let scoreDisplay = document.getElementById("score");
+let score = 0;
 
 let num = document.getElementById("num");
 
@@ -254,13 +257,18 @@ before.addEventListener("click", function() {
 });
 
 
+function afficherScore() {
+    scoreDisplay.textContent = "Score : " + score + "/" + questions.length;
+}
+
 verifier.addEventListener("click", function() {
 
     if (input.value === questions[index].reponse) {
 
         questionBox.classList.add("active");
         questionBox.textContent = "Bonne réponse !";
-
+        score = score + 1
+        
     } else {
 
         questionBox.style.backgroundColor = "red";
@@ -268,7 +276,7 @@ verifier.addEventListener("click", function() {
 
         voirRep.classList.remove("voirRep");
     }
-
+    afficherScore()
     input.value = "";
     input.focus();
 
@@ -282,5 +290,6 @@ voirRep.addEventListener("click", function() {
     questionBox.style.backgroundColor = "white";
     questionBox.classList.add("active")
 });
+
 
 
