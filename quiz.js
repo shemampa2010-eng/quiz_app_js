@@ -258,7 +258,7 @@ before.addEventListener("click", function() {
 
 
 function afficherScore() {
-    scoreDisplay.textContent = "Score : " + score + "/" + questions.length;
+    scoreDisplay.textContent = "Score : " + score + "/" + [index + 1];
 }
 
 verifier.addEventListener("click", function() {
