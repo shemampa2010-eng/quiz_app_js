@@ -280,7 +280,7 @@ voirRep.addEventListener("click", function() {
 
     questionBox.textContent = questions[index].reponse;
     questionBox.style.backgroundColor = "white";
-
+    questionBox.classList.add("active")
 });
 
 
