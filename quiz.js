@@ -279,7 +279,6 @@ verifier.addEventListener("click", function() {
     afficherScore()
     input.value = "";
     input.focus();
-
 });
 
 
