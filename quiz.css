@@ -96,3 +96,11 @@ button:hover {
 .next {
     display: none;
 }
+a {
+    color: #323232;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
