@@ -1,5 +1,10 @@
-
 body {
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(181, 219, 188);
+}
+
+main {
     background-color: rgb(181, 219, 188);
     font-family: Arial, sans-serif;
 
@@ -9,6 +14,7 @@ body {
 
     padding: 20px;
 }
+
 
 h1 {
     color: #333;
@@ -37,7 +43,6 @@ h1 {
     transition: background-color 0.3s ease;
 }
 
-/* Quand la réponse est bonne */
 .active {
     background-color: azure;
     color: green;
@@ -85,5 +90,9 @@ button:hover {
 }
 
 .voirRep {
+    display: none;
+}
+
+.next {
     display: none;
 }

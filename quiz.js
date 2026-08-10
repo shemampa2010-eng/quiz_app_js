@@ -213,6 +213,7 @@ function afficherQuestion() {
     questionBox.classList.remove("active");
     voirRep.classList.add("voirRep");
     num.textContent = "Question " + (index + 1) + "/" + questions.length;
+    next.classList.add("next")
 }
 
 let questionBox = document.getElementById("question");
@@ -276,6 +277,7 @@ verifier.addEventListener("click", function() {
 
         voirRep.classList.remove("voirRep");
     }
+    next.classList.remove("next")
     afficherScore()
     input.value = "";
     input.focus();
