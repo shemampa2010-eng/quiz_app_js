@@ -201,13 +201,14 @@ let questions = [
     }
 ];
 
-let index = 0
+let index = 0;
 
-let num = document.getElementById("num")
+let num = document.getElementById("num");
 
-function afficherQuestion(){
+function afficherQuestion() {
     questionBox.textContent = questions[index].question;
-    questionBox.classList.remove("active")
+    questionBox.classList.remove("active");
+    voirRep.classList.add("voirRep");
     num.textContent = "Question " + (index + 1) + "/" + questions.length;
 }
 
@@ -219,38 +220,42 @@ let next = document.getElementById("next");
 
 let input = document.getElementById("reponse");
 let verifier = document.getElementById("verifier");
-let voirRep = document.getElementById("voirRep")
+let voirRep = document.getElementById("voirRep");
 
-next.addEventListener("click", function(){
+
+next.addEventListener("click", function() {
 
     if (index >= questions.length - 1) {
         return;
     }
+
     index++;
 
     afficherQuestion();
     questionBox.style.backgroundColor = "white";
 });
 
-questionBox.addEventListener("click", function(){
-    questionBox.textContent = questions[index].reponse
-    questionBox.classList.add("active")
-    
-})
 
-let before = document.getElementById("before")
 
-before.addEventListener("click", function(){
-    if (index <= 0){
+
+
+let before = document.getElementById("before");
+
+before.addEventListener("click", function() {
+
+    if (index <= 0) {
         return;
     }
-    index--
-    afficherQuestion();    
-})
 
-verifier.addEventListener("click", function () {
+    index--;
 
-    
+    afficherQuestion();
+
+});
+
+
+verifier.addEventListener("click", function() {
+
     if (input.value === questions[index].reponse) {
 
         questionBox.classList.add("active");
@@ -260,10 +265,22 @@ verifier.addEventListener("click", function () {
 
         questionBox.style.backgroundColor = "red";
         questionBox.textContent = "Mauvaise réponse !";
-        voirRep.classList.remove("voirRep")
+
+        voirRep.classList.remove("voirRep");
     }
 
-    input.value = ""
+    input.value = "";
     input.focus();
+
 });
+
+
+voirRep.addEventListener("click", function() {
+
+
+    questionBox.textContent = questions[index].reponse;
+    questionBox.style.backgroundColor = "white";
+
+});
+
 
